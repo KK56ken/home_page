@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - 8080:8080
+    volumes:
+      - ./home_page:/app/home_page
+    tty: true
+    stdin_open: true
