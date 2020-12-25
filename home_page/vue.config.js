@@ -1,12 +1,12 @@
-module.exports = {
-  "transpileDependencies": [
-    "vuetify"
-  ],
-  configureWebpack: {
-    devServer: {
-      watchOptions: {
-        poll: true
-      }
-    }
-  }
-};
+// module.exports = {
+//   "transpileDependencies": [
+//     "vuetify"
+//   ],
+//   configureWebpack: {
+//     devServer: {
+//       watchOptions: {
+//         poll: true
+//       }
+//     }
+//   }
+// };
