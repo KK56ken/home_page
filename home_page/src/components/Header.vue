@@ -52,7 +52,7 @@ export default {
         tag:"インフラ",
         title:"DNSサーバー設定",
         text:"今回は内部権威DNSの設定をします",
-      },
+      }
       ],
   }),
   methods: {
@@ -68,10 +68,10 @@ a{
 }
 @keyframes fadeIn{
   0% {
-    transform: translateX(1300px);
+    transform: translateX(1500px);
   }
   100% {
-    transform: translateX(-100px);
+    transform: translateX(0px);
   }
 }
 @keyframes fadeOut {
@@ -83,7 +83,7 @@ a{
     }
 }
 .example{
-  animation:fadeIn 50s, fadeOut 50s;
+  animation:fadeIn 30s, fadeOut 30s;
   animation-iteration-count:infinite;
 }
 </style>
