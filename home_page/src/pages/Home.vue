@@ -25,18 +25,21 @@
       </v-row>
     </div>
     <OseroApp />
+    <CookApp />
   </div>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
 import OseroApp from '../components/Osero.vue';
+import CookApp from '../components/Cook.vue'
 
 export default {
   name: "Home",
   components: {
     Header,
     OseroApp,
+    CookApp
   },
   data:()=>({
     scrollY:0,

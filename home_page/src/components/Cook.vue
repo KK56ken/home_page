@@ -21,6 +21,7 @@
       v-model="showMenu"
       absolute
       offset-y
+      style="max-width: 600px"
     >
     <!-- v-bind:href="item.link" -->
     <template v-slot:activator="{ on, attrs }">
@@ -59,20 +60,32 @@ export default {
     selectedItem: null,
       items2: [
         {
-          title:'Play Now(Android)',
-          link: 'https://play.google.com/store/apps/details?id=com.funnysoft.test'
+          title:'Play Now(Web)',
+          link: ''
         },
         {
-          title: 'Play Now(Web)',
-          link: ''
+          title: 'Github',
+          link: 'https://github.com/KK56ken/What_in_Your_Fridge-'
         },
       ],
      items: [
           {
-            src: require("../../public/osero/osero.png")
+            src: require("../../public/cook/register.png")
+          },
+        //   {
+        //     src: require("../../public/cook/login.png")
+        //   },
+          {
+            src: require("../../public/cook/home.png")
           },
           {
-            src: require("../../public/osero/osero_room.png"),
+            src: require("../../public/cook/search.png")
+          },
+          {
+            src: require("../../public/cook/viewer.png")
+          },
+          {
+            src: require("../../public/cook/favorit.png")
           },
         ],
   }),
