@@ -16,7 +16,7 @@
     </div>
   </div> -->
 
-  <v-carousel hide-delimiters :height="this.height">
+  <v-carousel :show-arrows="false" cycle hide-delimiters :height="this.height">
      <v-menu
       v-model="showMenu"
       absolute
