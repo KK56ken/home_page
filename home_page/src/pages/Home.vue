@@ -47,7 +47,7 @@ export default {
         name: 'Applications :',
         children: [
           { id: 2, name: 'オンライン対戦　3Dオセロ' },
-          { id: 3, name: '料理検索' },
+          { id: 3, name: '料理サポートWebアプリ' },
           { id: 4, name: 'more' },
         ],
       },
@@ -79,7 +79,6 @@ export default {
   },
   created() {
     this.height = window.innerHeight
-    console.log(this.height)
   },
   methods: {
     handleScroll() {
