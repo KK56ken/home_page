@@ -16,7 +16,7 @@
     </div>
   </div> -->
 
-  <v-carousel :show-arrows="false" cycle hide-delimiters :height="this.height">
+  <v-carousel :show-arrows="false" continuous cycle hide-delimiters :height="this.height">
      <v-menu
       v-model="showMenu"
       absolute
@@ -30,8 +30,6 @@
       :src="item.src"
       v-bind="attrs"
       v-on="on"
-      reverse-transition="fade-transition"
-      transition="fade-transition"
     ></v-carousel-item>
     </template>
     <v-list><v-list-item-group
